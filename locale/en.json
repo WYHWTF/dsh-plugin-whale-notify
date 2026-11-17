@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Whale turn notifier",
+    "description": "Built for long tasks: one notification when a turn ends, decoupling task length from your attention. Turns under 60 s stay silent, the answer preview is off by default (lock screen). Tested on vivo V2617A / Android 16; other vendors untested."
+  }
+}
