@@ -1,0 +1,7 @@
+# whale-notify bundle layer: 注册「任务结束推 🐋 通知」这一行。
+# 这是 package.json#dsh.bundle.patch 指向的层；`insert` 把插件行加进组合后的配置。
+- insert:
+    # `id`：后续层用这个 id 覆盖本行的配置。
+    - id: whale-notify
+      # `name`：loader 导入的模块（本包入口 index.js）。
+      name: dsh-plugin-whale-notify
